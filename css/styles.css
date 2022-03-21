@@ -2,5 +2,21 @@
 body {
 background: black;
 color: white;
+}
+
+h2 {font-size: 20px; }
+
+p {font-size: 12px;
+color: green;}
+
+.laatikko { border-style: dotted; 
+    border-width: 2px;
+    height: 100px; width: 100px;
+
+}
+.a {list-style-type: lower-alpha;
+color: white;}
+.b{list-style-type: square;
+    color: white;}
   
   
