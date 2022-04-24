@@ -1,0 +1,54 @@
+
+
+body {
+    background: rgb(174, 225, 255);
+    color: rgb(0, 0, 0);
+    width: 85%;
+margin-left: auto;
+margin-right: auto;
+    }
+    
+    h1 {
+        border-style: double;
+        border-color: black;
+        background-color: rgb(245, 220, 224);
+    text-align: center;
+    }
+
+    h2{
+        font-size: medium;
+        background-color: rgb(245, 220, 224);
+    }
+    
+    p {background-color: rgb(245, 220, 224);
+        border-radius: 5px;
+        width: auto;
+        padding: 5px;
+    }
+
+    
+#headeri{background-color: aliceblue;
+    padding: 25px;
+text-align: center;
+}
+      
+#navi{
+        background-color: lightblue;
+        float: left;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-left: 5px;
+}
+
+#sectioni{
+        background-color:bisque;
+        margin-inline-start: 10px;
+        
+}
+
+
+
+
+
+    
