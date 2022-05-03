@@ -1,1 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Taulukkoreeniä</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styletable.css">
+
+<style>
+
+
+</style>
+</head>
+<body>
+
+<h1>Taulukkoreeniä</h1>
+
+<table>
+   <caption>Entten tentten -loru</caption>
+  <tr>
+    <th>Entten</th>
+    <th>Tentten</th>
+    <th>Teelika mentten</th>
+  </tr>
+  <tr>
+    <td rowspan="2">Vaapula</td>
+    <td>Vissun</td>
+    <td>Eelin teelin</td>
+  </tr>
+  <tr>
+    <td>Plop</td>
+    <td>Eskon Saun</td>
+  </tr>
+  <tr>
+    <td colspan="2">Pium Paum</td>
+    <td>Nyt mä</td>
+  </tr>
+  <tr>
+    <td>Lähden tästä</td>
+    <td>Tästä</td>
+    <td>Pelistä pois</td>
+  </tr>
+</table>
+<br>
+
+<div class="kysely">
+<FORM action="tableform.html" method="post">
+    
+    <LABEL for="etunimi">Etunimi: </LABEL>
+        <INPUT type="text" id="etunimi" required><BR>
+    <LABEL for="sukunimi">Sukunimi: </LABEL>
+        <INPUT type="text" id="sukunimi" required><BR>
+    <LABEL for="sähköposti">Sähköposti: </LABEL>
+        <INPUT type="text" id="sähköposti" required><BR>
+        </div>
+            <br>
+
+
+            Terkut voit kirjoittaa tähän: <br>
+   <textarea rows="4" cols="80" name="vapaasana"></textarea><br>
+        <INPUT type="checkbox" name="uutiskirje" value="on"> Tilaan uutiskirjeen<BR>
+
+            <fieldset>
+                <legend>Valitse lempimarjasi:</legend>
+            <label for="marjat"></label>
+        <select id="marjat" name="marjat">
+          <option value="mansikka">Mansikka</option>
+          <option value="mustikka">Mustikka</option>
+          <option value="vadelma">Vadelma</option>
+        </select></fieldset> <br>
+    <INPUT type="submit" value="Add new user">
+    
+ </FORM>
+
+
+
+</body>
+</html>
 
