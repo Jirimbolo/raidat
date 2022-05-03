@@ -1,1 +1,32 @@
 
+h1 {
+    text-align: left;
+    text-decoration: underline;
+    background-color: crimson;
+}
+body {
+    background-color: coral;
+    text-decoration: solid;
+    text-align: left;
+}
+
+table, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 4px;
+    }
+    th{
+        background-color: crimson;
+
+    }
+    legend{
+        background-color: crimson;
+        color: black;
+        padding: 6px;
+    }
+
+    .kysely{
+background-color: crimson;
+padding: 6px;
+    }
+
