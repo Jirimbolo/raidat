@@ -1,0 +1,16 @@
+
+
+body {
+    background: rebeccapurple;
+    color: black;
+    }
+    h1 {
+        border-style: double;
+        border-color: black;
+        background-color: rgb(245, 220, 224);
+    text-align: center;
+    }
+    .row{
+        background-color: black;
+        color: white;
+    }
